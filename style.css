@@ -2,10 +2,15 @@ nav {
     background-color: #ffffff;
     border-bottom:2px solid#e3e8f3;
     padding: 18px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 nav ul{
     list-style: none;
+    display: flex; 
+    gap: 20px;
 }
 
 nav ul li a{
@@ -25,8 +30,9 @@ div.logo {
 }
 
 .hero{
-    background-color: rgb(144, 165, 249);
+    background-color: rgb(92, 123, 247);
     color: white;
+    margin: auto;
     padding: 100px 20px;
     text-align: center;
 }
@@ -47,4 +53,73 @@ div.logo {
     font-size: 18px;
     width: 650px;
     margin: 0 auto 30px auto;
+}
+
+.btn{
+    display: inline-block;
+    padding: 12px 22px;
+    border-radius: 30px;
+    text-decoration: none;
+    margin: 8px;
+}
+
+.first{
+  background-color: white;
+  color: #1e2a78;
+}
+
+.first:hover{
+    background-color: #f3f4f6;
+}
+
+.second{
+    background-color: #1e2a78;
+    color: white;
+}
+
+.second:hover{
+    background-color: white;
+    color:#1e2a78;
+}
+
+body{
+    background-color: #f0f2f8;
+    color: #222;
+    line-height: 1.6;
+}
+
+section{
+    background-color: white;
+    width: 1000px;
+    margin: 60px auto;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 29px 1px rgba(222, 216, 232, 0.77);
+}
+
+section h2{
+    font-size: 28px;
+    margin-bottom: 30px;
+    color: #1e2a78;
+}
+
+.skills span{
+    display: inline-block;
+    background-color: #eef2ff;
+    padding: 8px 14px;
+    border-radius: 20px;
+    margin: 6px;
+    font-size: 14px;
+    color: #4338ca;
+}
+
+#service ul{
+    font-size: 17px;
+}
+
+footer{
+    text-align: center;
+    padding: 30px 20px;
+    color: #666;
+    font-size: 17px;
 }
